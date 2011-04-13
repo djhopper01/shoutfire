@@ -1,0 +1,3 @@
+An Android chat application.
+
+The backend includes a PHP interface to a MySQL database. All messages are saved in the database. Users can only see the last 100.

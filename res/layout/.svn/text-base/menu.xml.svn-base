@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="@color/black">
+	<TableLayout android:id="@+id/menu_table"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:stretchColumns="*" android:layout_margin="10dp">
+		<TableRow android:layout_weight="1" android:layout_marginBottom="10dp">
+			<TextView android:id="@+id/menu_personals" android:text="@string/personals"
+				android:gravity="center_horizontal|center_vertical"
+				android:layout_marginRight="10dp" android:background="@color/red" android:textAppearance="@style/MenuFont"
+				android:layout_height="fill_parent" android:layout_width="fill_parent" />
+			<TextView android:id="@+id/menu_chat" android:text="@string/chat"
+				android:gravity="center_horizontal|center_vertical" android:background="@color/blue"
+				android:layout_height="fill_parent" android:layout_width="fill_parent" android:textAppearance="@style/MenuFont" />
+		</TableRow>
+		<TableRow android:layout_marginBottom="10dp"
+			android:layout_weight="1">
+			<TextView android:id="@+id/menu_sports" android:text="@string/sports"
+				android:gravity="center_horizontal|center_vertical"
+				android:layout_marginRight="10dp" android:background="@color/green" android:textAppearance="@style/MenuFont"
+				android:layout_height="fill_parent" android:layout_width="fill_parent" />
+			<TextView android:id="@+id/menu_games" android:text="@string/games"
+				android:gravity="center_horizontal|center_vertical" android:background="@color/purple"
+				android:layout_height="fill_parent" android:layout_width="fill_parent" android:textAppearance="@style/MenuFont"/>
+		</TableRow>
+		<TableRow android:layout_marginBottom="10dp"
+			android:layout_weight="1">
+			<TextView android:id="@+id/menu_technology" android:text="@string/tech"
+				android:gravity="center_horizontal|center_vertical" android:textAppearance="@style/MenuFont"
+				android:layout_marginRight="10dp" android:background="@color/yellow"
+				android:layout_height="fill_parent" android:layout_width="fill_parent" />
+			<TextView android:id="@+id/menu_movies" android:text="@string/movies"
+				android:gravity="center_horizontal|center_vertical" android:background="@color/silver"
+				android:layout_height="fill_parent" android:layout_width="fill_parent" android:textAppearance="@style/MenuFont"/>
+		</TableRow>
+		<TableRow
+			android:layout_weight="1">
+			<TextView android:id="@+id/menu_mature" android:text="@string/mature"
+				android:gravity="center_horizontal|center_vertical" android:textAppearance="@style/MenuFont"
+				android:layout_marginRight="10dp" android:background="@color/pink"
+				android:layout_height="fill_parent" android:layout_width="fill_parent" />
+			<TextView android:id="@+id/menu_settings" android:text="@string/settings"
+				android:gravity="center_horizontal|center_vertical" android:background="@color/orange"
+				android:layout_height="fill_parent" android:layout_width="fill_parent" android:textAppearance="@style/MenuFont" />
+		</TableRow>
+	</TableLayout>
+</RelativeLayout>

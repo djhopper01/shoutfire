@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/shoutfire/!svn/ver/7/trunk/Shoutfire
+END
+default.properties
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/shoutfire/!svn/ver/7/trunk/Shoutfire/default.properties
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/shoutfire/!svn/ver/7/trunk/Shoutfire/.classpath
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/shoutfire/!svn/ver/7/trunk/Shoutfire/.project
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/shoutfire/!svn/ver/7/trunk/Shoutfire/AndroidManifest.xml
+END
